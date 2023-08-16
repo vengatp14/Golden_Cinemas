@@ -1,0 +1,206 @@
+html,body{
+width:100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+[data-theme="body"] {
+    background-color: #111 !important;
+    color: #eee;
+  }
+.backgroung-img{
+background-image: url(https://wallpapercave.com/wp/wp4061875.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+display: inline-block;
+height: 90vh;
+width: 100%;
+filter: brightness(10%)
+}
+.home-nav{
+    margin-top: -600px;
+    position: relative;
+}
+.heading-home{
+    top: 150px;
+}
+
+.btn-hover-nav:hover{
+    background-color:rgba(221, 255, 70, 0.411);
+    border-radius: 40px;
+    
+}
+.current-menu{
+    background-color:rgba(221, 255, 70, 0.411);
+    border-radius: 40px;
+    
+}
+
+.media-screen{
+    margin-top: -550px;
+    
+}
+.bg-imgae{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/60a8d1524c6b1805bc217970/1622133896800-2JO2XMD8MS54FNSJU1IO/unsplash-image-NYrVisodQ2M.jpg4);
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    filter: brightness(60%);
+}
+.bg-imgae2{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/60a8d1524c6b1805bc217970/1621851332729-TFN450XKWZOJ08X3UMAG/talent-banner.png);
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    filter: brightness(60%);
+}
+.bg-imgae3{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/60a8d1524c6b1805bc217970/1621713149500-BHERWSRDODB1RMY8V71S/blue.png);
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    filter: brightness(60%);
+}
+.bg-imgae4{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/60a8d1524c6b1805bc217970/1621878629633-CUQGWI65KH6UEXQCUBFB/unsplash-image-evlkOfkQ5rE.jpg);
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    filter: brightness(60%);
+}
+
+.bg-imgae5{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    filter: brightness(60%);
+}
+.bg-imgae8{
+    background-image: url(https://thumbs.gfycat.com/BlankSpanishHedgehog.webp);
+    height:150%;
+    width: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    filter: brightness(60%);
+}
+.text-centerr{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+}
+.font-media{
+margin-top: 15%;
+}
+.img-hover{
+    transition: 1s;
+}
+.img-hover:hover{
+   transform:scale(1.3);
+   z-index: 2;
+}
+  @media screen and (max-width: 1768px) {
+    .media-screen{
+        margin-top: -700px;
+        
+    }
+    
+
+    @media screen and (max-width: 500px) {
+        .media-screen{
+            margin-top: -200px;
+            font-size: 10px;
+        }
+   .img-height{
+       height: 100px;
+   }
+      }
+}
+
+@media screen and (max-width: 1300px) {
+    .media-screen{
+        margin-top: -500px;
+        
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .media-screen{
+        margin-top: -400px;
+        
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .media-screen{
+        margin-top: -300px;
+        
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .media-screen{
+        margin-top: -200px;
+        
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .media-screen{
+        margin-top: -150px;
+        
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .media-font{
+        margin-top: -60px;
+        
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .font-media{
+        margin-top: 100px;
+        
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .map-media{
+        margin-top: -400px;
+        
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .track-font{
+        margin-top: 300px;
+        
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .map-media{
+        margin-top: 30px;
+        
+    }
+  }
+
+
+
+    

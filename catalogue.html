@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- animate style css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- a-o-s -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <!-- theam mode  -->
+  <link rel="stylesheet" href="./assets/css/dark.css" media="(prefers-color-scheme: dark)">
+  <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+    <title>catalogue</title>
+
+<!-- some css of this page  -->
+    <style>
+        .album-container {
+            height: auto;
+            padding-top: 200px;
+        }
+        .album-title {
+            margin: 50px;
+            text-align: center;
+        }
+        .album-imgs {
+            padding-top: 20px;
+        }
+        .album-imgs img {
+            height: 250px;
+        }
+        .more-option {
+            font-size: 28px;
+            width: 250px;
+        }
+        .tracks-container {
+            height: auto;
+            padding-top: 80px;
+        }
+        .track-title {
+            margin: 50px;
+            text-align: center;
+        }
+        .track-imgs {
+            padding-top: 20px;
+        }
+        .track-imgs img {
+            height: 250px;
+        }
+        .composers-container {
+            height: auto;
+            padding: 80px 0;
+        }
+        .composer-title {
+            margin: 50px;
+            text-align: center;
+        }
+        .composer-imgs {
+            padding-top: 20px;
+        }
+        .composer-imgs img {
+            height: 300px;
+        }
+        .report-container {
+            padding: 80px 0;
+        }
+    </style>
+
+</head>
+<body class="text-warning">
+<!-- bacground image of hero  -->
+    <div class="backgroung-img">
+    </div>
+
+    <!-- hero section -->
+    <div class="container">
+
+        <!-- nav bar  -->
+        <div class=" home-nav text-warning">
+            <nav class="navbar navbar-expand-lg navbar-dark mt-4">
+
+                <!--  Show this only on mobile to medium screens  -->
+
+                <!-- left menus  -->
+
+                <!-- logo  -->
+                <a class="navbar-brand d-lg-none animate__animated animate__flip " href="#"><img
+                        src="./assets/images/Logo-Cleanup+400.png" height="100px" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                    aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--  Use flexbox utility classes to change how the child elements are justified  -->
+                <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active btn-hover-nav text-warning" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class=" current-menu nav-link btn-hover-nav text-warning" href="catalogue.html">Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link btn-hover-nav text-warning" href="streams.html">Stream</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link btn-hover-nav text-warning" href="channels.html">Channels</a>
+                        </li>
+                        <li class="nav-item btn-hover-nav ">
+                          <a class="nav-link text-warning" href="movies.html">Movies</a>
+                        </li>
+                        <li class="nav-item btn-hover-nav">
+                          <a class="nav-link text-warning" href="aboutus.html">about us</a>
+                        </li>
+                      
+                      </ul>
+
+
+                    <!--   Show this only lg screens and up   -->
+
+                     <!-- right menus  -->
+
+                    <!-- logo  -->
+                    <a class="navbar-brand d-none d-lg-block mr-5 animate__animated animate__flip" href="#"> <img
+                            class="mr-5" src="./assets/images/Logo-Cleanup+400.png" height="100px" alt=""> </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item mt-2">
+                            <a class="nav-link text-warning" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link text-warning" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link text-warning" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link text-warning" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="getintouch.html"><button type="button" class="btn btn-outline-warning">Get in
+                                    touch</button></a>
+                        </li>
+                        <li>
+                            <aside>
+                              <dark-mode-toggle class="text-warning"
+                                  id="dark-mode-toggle-1"
+                                  legend="Theme Switcher"
+                                  appearance="switch"
+                                  dark="Dark"
+                                  light="Light"
+                              ></dark-mode-toggle>
+                            </aside>
+                                 </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- nav bar  -->
+
+        <div class="row">
+            <div class="col-12 text-warning text-center heading-home animate__animated animate__tada mb-5 media-font">
+                <h1 style="font-size: 58px;">Our Catalogue</h1>
+                <p style="padding-top: 20px; font-size: 28px;">A comprehensive list of all our Albums, Composers, &
+                    Tracks.</p>
+            </div>
+        </div>
+    </div>
+    <!-- hero section -->
+
+    <!-- Albums section   -->
+    <div class="album-container">
+        <div class="container">
+            <!-- album heading   -->
+            <div class="album-title text-warning">
+                <h1>Albums</h1>
+            </div>
+            <div class="row">
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs col-md-12 img-hover">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/32.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/31.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/30.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/11.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/12.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/13.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/14.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/15.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/16.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/17.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 album-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/albums/18.jpg" class="w-100" />
+                    </div>
+                </div>
+                <!-- album image  -->
+
+                <!-- album image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4">
+                    <div class="more-option" data-ripple-color="light">
+                        <a href="albums.html">
+                            <img data-aos="zoom-in" src="./assets/images/albums/0.png" class="w-100" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Albums section   -->
+
+    <!-- Tracks section  -->
+    <div class="tracks-container">
+        <div class="container">
+            <div class="track-title">
+                <h1>Tracks</h1>
+            </div>
+            <div class="row">
+                <!-- track images   -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 track-imgs col-md-12">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/tracks/img1.jpg" class="w-100" />
+                        <p>Suthi Suthi Vandhiga - Padaiyappa</p>
+                    </div>
+                </div>
+                <!-- track images   -->
+
+                <!-- track images  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 track-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/tracks/img2.jpg" class="w-100" />
+                        <p>Munbe Vaa - Sillunu Oru Kadhal</p>
+                    </div>
+                </div>
+                <!-- track images   -->
+
+                <!-- track images  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 track-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/tracks/img3.jpg" class="w-100" />
+                        <p>Minnalai Pidithu - Shajahaan</p>
+                    </div>
+                </div>
+                <!-- track images   -->
+
+                <!-- track images  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 track-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/tracks/img4.jpg" class="w-100" />
+                        <p>Kandaangi Kandaangi - Jilla</p>
+                    </div>
+                </div>
+                <!-- track images   -->
+
+                <!-- track images  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 track-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/tracks/img5.jpg" class="w-100" />
+                        <p>Pazhaya Soru - Thirunaal</p>
+                    </div>
+                </div>
+                <!-- track images   -->
+
+                <!-- track images  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 track-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/tracks/img6.jpg" class="w-100" />
+                        <p>Iayyayo - Paruthiveeran</p>
+                    </div>
+                </div>
+                <!-- track images   -->
+
+                <!-- track images  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 track-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/tracks/img7.jpg" class="w-100" />
+                        <p>Aarariraro - Raam</p>
+                    </div>
+                </div>
+                <!-- track images   -->
+
+                <!-- track images  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4">
+                    <div class="more-option" data-ripple-color="light">
+                        <a href="track.html">
+                            <img data-aos="zoom-in" src="./assets/images/albums/0.png" class="w-100" />
+                        </a> 
+                    </div>
+                </div>
+                <!-- track images   -->
+
+            </div>
+        </div>
+    </div>
+    <!-- Tracks section  -->
+
+    <!-- Composers section  -->
+    <div class="composers-container">
+        <div class="container">
+            <div class="composer-title">
+                <h1>Composers</h1>
+            </div>
+            <div class="row">
+                <!-- composer image   -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 composer-imgs col-md-12">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/composers/1.jpg" class="w-100" />
+                        <p>Suthi Suthi Vandhiga - Padaiyappa</p>
+                    </div>
+                </div>
+                <!-- composer image   -->
+
+                <!-- composer image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 composer-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/composers/2.jpg" class="w-100" />
+                        <p>Munbe Vaa - Sillunu Oru Kadhal</p>
+                    </div>
+                </div>
+                <!-- composer image   -->
+
+                <!-- composer image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 composer-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/composers/3.jpg" class="w-100" />
+                        <p>Minnalai Pidithu - Shajahaan</p>
+                    </div>
+                </div>
+                <!-- composer image   -->
+
+                <!-- composer image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 composer-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/composers/4.jpg" class="w-100" />
+                        <p>Kandaangi Kandaangi - Jilla</p>
+                    </div>
+                </div>
+                <!-- composer image   -->
+
+                <!-- composer image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 composer-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/composers/5.jpg" class="w-100" />
+                        <p>Pazhaya Soru - Thirunaal</p>
+                    </div>
+                </div>
+                <!-- composer image   -->
+
+                <!-- composer image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 composer-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/composers/6.jpg" class="w-100" />
+                        <p>Iayyayo - Paruthiveeran</p>
+                    </div>
+                </div>
+                <!-- composer image   -->
+
+                <!-- composer image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4 composer-imgs">
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                        <img data-aos="zoom-in" src="./assets/images/composers/7.jpg" class="w-100" />
+                        <p>Aarariraro - Raam</p>
+                    </div>
+                </div>
+                <!-- composer image   -->
+
+                <!-- composer image  -->
+                <div class="col-lg-3 img-hover col-md-4 col-sm-4">
+                    <div class="more-option" data-ripple-color="light">
+                        <a href="track.html">
+                            <img data-aos="zoom-in" src="./assets/images/albums/0.png" class="w-100" />
+                        </a> 
+                    </div>
+                </div>
+                <!-- composer image   -->
+
+            </div>
+        </div>
+    </div>
+    <!-- Composers section  -->
+
+    <!-- image and content with animation  -->
+    <div class="cd-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <img data-aos="fade-up" src="./assets/images/cd.jpg" class="img-fluid rounded-start mt-4" alt="...">
+                </div>
+                <div class="col-md-6  ">
+                    <div class="card-body mt-5 ">
+                        <h1 data-aos="fade-up" class="card-text mt-5" style="margin-top: 30%; width: 50%;">Got query
+                            related to
+                            Acquisition & Rights?</h1>
+                        <button data-aos="fade-up" class="btn btn-outline-warning">Get in touch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- image and content with animation  -->
+
+
+ <!-- privacy section  -->
+    <div class="report-container">
+        <div class="container-fluid text-center bg-imgae5 text-warning bg-dark">
+            <img src="./assets/images/privicy.png" class="img-fluid" alt="" data-aos="flip-left">
+            <h1 class="p-5" data-aos="flip-left"> Report Piracy, We take strong action against it!</h1>
+            <button data-aos="flip-left" class="btn btn-outline-warning p-2 mb-5"> Report Now </button>
+        </div>
+    </div>
+ <!-- privacy section  -->
+    
+    <!-- footer  -->
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-12">
+                <img class="mt-3" src="./assets/images/textimg.jpeg" alt="">
+                <p class="mt-3">
+                    ©2021 Star Music <br>
+                    All Rights Reserved
+                </p>
+                <p class="mt-3">
+                    <i class="fa fa-youtube-square fa-lg text-danger" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square fa-lg text-info" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-square fa-lg text-primary" aria-hidden="true"></i>
+                    <i class="fa fa-instagram fa-lg text-danger" aria-hidden="true"></i>
+                </p>
+            </div>
+        </div>
+        <p>
+            <span class="text-warning">Home <span class="text-warning">|</span></span>
+            <span class="text-warning">Catalogue <span class="text-warning">|</span></span>
+            <span class="text-warning">Streams <span class="text-warning">|</span></span>
+            <span class="text-warning">Channels <span class="text-warning">|</span></span>
+            <span class="text-warning">Movies <span class="text-warning">|</span></span>
+            <span class="text-warning">Sitemap <span class="text-warning">|</span></span>
+            <span class="text-warning">About <span class="text-warning">|</span></span>
+        </p>
+    </footer>
+    <!-- footer  -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+
+    <!-- a-o-s -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    <!-- p-js   -->
+    <script src="./assets/particles.js-master/particles.js">
+    </script>
+    <script src="./assets/particles.js-master/demo/js/app.js">
+    </script>
+
+    <!-- js scrip for dark mode  -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
